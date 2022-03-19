@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/karaoke-app/static/css/main.0a9dbc9e.css",
-    "main.js": "/karaoke-app/static/js/main.1a1f34c4.js",
+    "main.js": "/karaoke-app/static/js/main.575dc21b.js",
     "static/js/787.9d835053.chunk.js": "/karaoke-app/static/js/787.9d835053.chunk.js",
     "static/media/logo.svg": "/karaoke-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/karaoke-app/index.html",
     "main.0a9dbc9e.css.map": "/karaoke-app/static/css/main.0a9dbc9e.css.map",
-    "main.1a1f34c4.js.map": "/karaoke-app/static/js/main.1a1f34c4.js.map",
+    "main.575dc21b.js.map": "/karaoke-app/static/js/main.575dc21b.js.map",
     "787.9d835053.chunk.js.map": "/karaoke-app/static/js/787.9d835053.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0a9dbc9e.css",
-    "static/js/main.1a1f34c4.js"
+    "static/js/main.575dc21b.js"
   ]
 }
