@@ -40,3 +40,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ### `npm run deploy`
 
 Publish app to github pages
+
+### `ruby src/parse_csv.rb`
+
+Rebuilds the song list
