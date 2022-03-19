@@ -1,3 +1,5 @@
+[Live App](https://cstack.github.io/karaoke-app/)
+
 ## Available Scripts
 
 In the project directory, you can run:
