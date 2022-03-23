@@ -41,6 +41,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 Publish app to github pages
 
-### `ruby src/parse_csv.rb`
+### `ruby src/parse_songs.rb`
 
 Rebuilds the song list
