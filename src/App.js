@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './water.css';
 import './App.css';
 import SONGS from './songs.json';
@@ -45,7 +44,7 @@ class App extends React.Component {
   }
 
   matchNumberOfSingers(song) {
-    return song.number_of_singers == this.state.groupSize;
+    return song.number_of_singers === this.state.groupSize.toString();
   }
 
   matchDecade(song) {
@@ -97,7 +96,6 @@ class GroupSizePicker extends React.Component {
       <select value={this.props.value} onChange={this.handleChange.bind(this)}>
         <option value="1">Solo</option>
         <option value="2">Duet</option>
-        <option value="3">Group</option>
       </select>
     );
   }
