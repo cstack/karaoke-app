@@ -1,7 +1,7 @@
 require_relative '../tooling/spotify_adapter.rb'
 require 'csv'
 
-PLAYLIST_ID = '5jTkE0z8RM5ijInIHTOixF'
+PLAYLIST_ID = '3uXsjGstITnMQEjZziy6Bf'
 adapter = SpotifyAdapter.new(api_key: File.read('SPOTIFY_API_KEY'))
 songs = adapter.get_playlist_tracks(PLAYLIST_ID)
 
