@@ -1,61 +1,101 @@
-title,artist,number_of_singers
-Shallow,Lady Gaga and Bradley Cooper,2
-My Boo,Usher and Alicia Keys,2
-I Don't Wanna Live Forever,ZAYN and Taylor Swift,2
-Like I'm Gonna Lose You,Meghan Trainor and John Legend,2
-Don't Go Breaking My Heart,Elton John and Kiki Dee,2
-I've Had The Time of My Life,Bill Medley and Jennifer Warnes,2
-Stay,Rihanna and Mikky Ekko,2
-Perfect Duet,Ed Sheeran and Beyoncé,2
-Love Shack,The B-52's,2
-A Whole New World,Lea Salonga and Brad Kane,2
-Beauty and the Beast,Celine Dion and Peabo Bryson,2
-Lucky,Jason Mraz and Colbie Caillat,2
-03' Bonnie & Clyde,JAY-Z and Beyoncé,2
-Way Back Into Love,Hugh Grant and Hayley Bennett,2
-Endless Love,Lionel Richie and Diana Ross,2
-Ain't No Mountain High Enough,Marvin Gaye and Tammi Terrell,2
-Just Give Me a Reason,P!nk and Nate Ruess,2
-Everything Has Changed,Taylor Swift and Ed Sheeran,2
-It Ain't Me Babe,Joaquin Phoenix and Reese Witherspoon,2
-Jackson,Joaquin Phoenix and Reese Witherspoon,2
-Cruisin',Huey Lewis and Gwyneth Paltrow,2
-Summer Nights,John Travolta and Olivia Newton-John,2
-I Got You Babe,Sonny & Cher,2
-You're the One that I Want,John Travolta and Olivia Newton-John,2
-Umbrella,Rihanna and JAY-Z,2
-Islands in the Stream,Dolly Parton and Kenny Rogers,2
-The Boy is Mine,Brandy and Monica,2
-Good Time,Owl City and Carly Rae Jepsen,2
-Savage Remix featuring Beyoncé,Megan Thee Stallion,2
-Despacito,Luis Fonsi and Daddy Yankee,2
-Truth Hurts,Lizzo,1
-Dangerous Woman,Ariana Grande,1
-Oops...I Did It Again,Britney Spears,1
-Mr. Brightside,The Killers,1
-Don't Speak,No Doubt,1
-Make You Feel My Love,Adele,1
-Love Song,Sara Bareilles,1
-Since U Been Gone,Kelly Clarkson,1
-Livin' on a Prayer,Bon Jovi,1
-Ironic,Alanis Morrisette,1
-A Thousand Years,Christina Perri,1
-Jump Around,House of Pain,1
-Just the Way You Are,Bruno Mars,1
-...Baby One More Time,Britney Spears,1
-He Wasn't Man Enough for Me,Toni Braxton,1
-If I Ain't Got You,Alicia Keys,1
-Like a Prayer,Madonna,1
-U Remind Me,Usher ,1
-Genie In a Bottle,Christina Aguilera,1
-Back to Black,Amy Winehouse,1
-Bleeding Love,Leona Lewis,1
-Me, Myself, and I,Beyoncé,1
-Someone Like You,Adele,1
-Torn,Natalie Imbruglia,1
-A Thousand Miles,Vanessa Carlton,1
-Unwritten,Natasha Bedingfield,1
-She Bangs,Ricky Martin,1
-We Can't Stop,Miley Cyrus,1
-Always Be My Baby,Mariah Carey,1
-Wonderwall,Oasis,1
+title,artist,number_of_singers,year
+Don't Stop Believin',Journey,1,1981
+Shallow,"Lady Gaga, Bradley Cooper",2,2018
+Wannabe,Spice Girls,1,1996
+I Wanna Dance with Somebody (Who Loves Me),Whitney Houston,1,1987
+Love Shack,The B-52's,1,1989
+Ain't No Mountain High Enough,"Marvin Gaye, Tammi Terrell",2,1967
+I Want You Back,The Jackson 5,1,1969
+Love Song,Sara Bareilles,1,2007
+Summer Nights - From “Grease”,"John Travolta, Olivia Newton-John",2,1978
+Don't Go Breaking My Heart,"Elton John, Kiki Dee",2,1990
+Total Eclipse of the Heart,Bonnie Tyler,1,2009
+I Want It That Way,Backstreet Boys,1,1999
+Everybody (Backstreet's Back) - Radio Edit,Backstreet Boys,1,2013
+Bye Bye Bye,*NSYNC,1,2000
+Uptown Girl,Billy Joel,1,1983
+Girls Just Want to Have Fun,Cyndi Lauper,1,1983
+Africa,TOTO,1,1982
+"(I've Had) The Time of My Life - From ""Dirty Dancing"" Soundtrack","Bill Medley, Jennifer Warnes",2,2004
+Walking On Sunshine,Katrina & The Waves,1,1985
+"Stayin' Alive - From ""Saturday Night Fever"" Soundtrack",Bee Gees,1,1979
+You're The One That I Want - From “Grease”,"John Travolta, Olivia Newton-John",2,1978
+Livin' On A Prayer,Bon Jovi,1,1986
+Mr. Brightside,The Killers,1,2004
+Come On Eileen,Dexys Midnight Runners,1,1982
+Y.M.C.A.,Village People,1,1978
+Umbrella,"Rihanna, JAY-Z",2,2007
+Perfect Duet (Ed Sheeran & Beyoncé),"Ed Sheeran, Beyoncé",2,2017
+Someone Like You,Adele,1,2011
+Make You Feel My Love,Adele,1,2008
+Bohemian Rhapsody,Queen,1,2006
+Dancing Queen,ABBA,1,1976
+Mamma Mia,ABBA,1,1975
+A Thousand Miles,Vanessa Carlton,1,2002
+Unwritten,Natasha Bedingfield,1,2004
+My Boo,"Usher, Alicia Keys",2,2004
+03' Bonnie & Clyde,"JAY-Z, Beyoncé",2,2002
+Oops!...I Did It Again,Britney Spears,1,2000
+...Baby One More Time,Britney Spears,1,1999
+Way Back Into Love,"Hugh Grant, Haley Bennett",2,2006
+Lucky,"Jason Mraz, Colbie Caillat",2,2008
+I Don’t Wanna Live Forever (Fifty Shades Darker),"ZAYN, Taylor Swift",2,2017
+Just Give Me a Reason (feat. Nate Ruess),"P!nk, Nate Ruess",2,2012
+Everything Has Changed,"Taylor Swift, Ed Sheeran",2,2012
+It Ain't Me Babe,"Joaquin Phoenix, Reese Witherspoon",2,2005
+Jackson,"Joaquin Phoenix, Reese Witherspoon",2,2005
+Cruisin' - Single Edit,"Huey Lewis, Gwyneth Paltrow",2,2006
+Like I'm Gonna Lose You (feat. John Legend),"Meghan Trainor, John Legend",2,2015
+I Got You Babe,Sonny & Cher,1,1965
+"Beauty and the Beast - from the Soundtrack ""Beauty and the Beast""","Céline Dion, Peabo Bryson",2,1992
+A Thousand Years,Christina Perri,1,2011
+Just the Way You Are,Bruno Mars,1,2010
+Stay,"Rihanna, Mikky Ekko",2,2012
+Jump Around,House Of Pain,1,1992
+She Bangs - English Version,Ricky Martin,1,2000
+I Hope You Dance,Lee Ann Womack,1,2000
+Don't Let Go (Love),En Vogue,1,1997
+Dangerous Woman,Ariana Grande,1,2016
+Always Be My Baby,Mariah Carey,1,1995
+I'm Gonna Be (500 Miles),The Proclaimers,1,2003
+I Will Survive - Single Version,Gloria Gaynor,1,2000
+Umbrella,"Rihanna, JAY-Z",2,2008
+"Endless Love - From ""The Endless Love"" Soundtrack","Lionel Richie, Diana Ross",2,2003
+A Whole New World,"Lea Salonga, Brad Kane, Disney",3,2004
+Damn I Wish I Was Your Lover,Sophie B. Hawkins,1,2003
+Islands In the Stream,"Dolly Parton, Kenny Rogers",2,1982
+The Boy Is Mine,"Brandy, Monica",2,1998
+Good Time,"Owl City, Carly Rae Jepsen",2,2012
+Hit the Road Jack,Ray Charles,1,2021
+Can You Feel The Love Tonight,Elton John,1,1995
+Savage Remix (feat. Beyoncé),"Megan Thee Stallion, Beyoncé",2,2020
+Save a Horse (Ride a Cowboy),Big & Rich,1,2009
+Tequila Makes Her Clothes Fall Off,Joe Nichols,1,2011
+Stuck Like Glue,Sugarland,1,2010
+The Devil Went Down to Georgia,The Charlie Daniels Band,1,1973
+Don't Speak,No Doubt,1,1995
+Ironic - 2015 Remaster,Alanis Morissette,1,1995
+U Remind Me,Usher,1,2001
+"Me, Myself and I",Beyoncé,1,2003
+Redneck Woman,Gretchen Wilson,1,2004
+What Was I Thinkin',Dierks Bentley,1,2003
+"I Like It, I Love It",Tim McGraw,1,1995
+Boondocks,Little Big Town,1,2005
+Before He Cheats,Carrie Underwood,1,2005
+Wide Open Spaces,The Chicks,1,1998
+Cowboy Take Me Away,The Chicks,1,1999
+All-American Girl,Carrie Underwood,1,2007
+Love Story,Taylor Swift,1,2008
+If I Ain't Got You,Alicia Keys,1,2003
+He Wasn't Man Enough,Toni Braxton,1,2000
+Genie In a Bottle,Christina Aguilera,1,1999
+Bleeding Love,Leona Lewis,1,2007
+Waterfalls,TLC,1,1994
+Despacito,"Luis Fonsi, Daddy Yankee",2,2017
+Say My Name,Destiny's Child,1,1999
+Wagon Wheel,Darius Rucker,1,2013
+She's In Love With The Boy - Single Version,Trisha Yearwood,1,1991
+Back To Black,Amy Winehouse,1,2006
+Sweet Caroline,Neil Diamond,1,1969
+Party In The U.S.A.,Miley Cyrus,1,2009
+Wonderwall,Oasis,1,1995
