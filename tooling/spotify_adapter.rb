@@ -63,6 +63,7 @@ class SpotifyAdapter
       number_of_singers: track["artists"].count,
       year: get_year(track),
       artist: track["artists"].map { |artist| artist["name"] }.join(", "),
+      popularity: track["popularity"],
     }
   end
 

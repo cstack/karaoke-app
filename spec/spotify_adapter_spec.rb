@@ -24,6 +24,7 @@ describe SpotifyAdapter do
 	        :spotify_id=>"4bHsxqR3GMrXTxEPLuK5ue",
 	        :title=>"Don't Stop Believin'",
 	        :year=>"1981",
+	        :popularity=>85,
 	      },
 	      {
 	      	:artist=>"Lady Gaga, Bradley Cooper",
@@ -31,6 +32,7 @@ describe SpotifyAdapter do
 	        :spotify_id=>"2VxeLyX666F8uXCJ0dZF8B",
 	        :title=>"Shallow",
 	        :year=>"2018",
+	        :popularity=>87,
 	      },
 			])
 		end
