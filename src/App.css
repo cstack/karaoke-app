@@ -4,12 +4,13 @@
   color: white;
   min-height: 100vh;
   padding: 10px;
-  padding-top: 5vh;
 }
 
 .Filters {
+  padding-bottom: 10px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 

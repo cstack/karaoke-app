@@ -2,6 +2,7 @@ require 'uri'
 require 'net/http'
 require 'openssl'
 require 'json'
+require 'byebug'
 
 class SpotifyAdapter
   def initialize(api_key:)
@@ -64,6 +65,7 @@ class SpotifyAdapter
       year: get_year(track),
       artist: track["artists"].map { |artist| artist["name"] }.join(", "),
       popularity: track["popularity"],
+      duration_ms: track["duration_ms"],
     }
   end
 

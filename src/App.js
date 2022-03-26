@@ -20,6 +20,7 @@ class App extends React.Component {
       noMatchingSong: false,
       groupSize: 1,
       decade: "",
+      maxLength: "",
     };
   }
   render() {
@@ -28,6 +29,7 @@ class App extends React.Component {
       <div className="Filters">
         <GroupSizePicker value={this.state.groupSize} onChange={(value) => this.setState({groupSize: value}) } />
         <DecadePicker value={this.state.decade} onChange={(value) => this.setState({decade: value}) } />
+        <LengthPicker value={this.state.maxLength} onChange={(value) => this.setState({maxLength: value}) } />
       </div>
       <NewSongButton onClick={() => { this.pickNewSong() }}>Pick New Song</NewSongButton>
       <Song song={this.state.suggestedSong} noMatchingSong={this.state.noMatchingSong} />
@@ -38,7 +40,8 @@ class App extends React.Component {
   randomSong() {
     const filteredSongs = SONGS.filter((song) => {
       return this.matchNumberOfSingers(song) &&
-        this.matchDecade(song);
+        this.matchDecade(song) &&
+        this.matchLength(song);
     });
     return filteredSongs[Math.floor(Math.random()*filteredSongs.length)];
   }
@@ -53,6 +56,16 @@ class App extends React.Component {
     } else {
       const decadeStart = DECADE_MAP[this.state.decade];
       return song.year >= decadeStart && song.year < (decadeStart + 10);
+    }
+  }
+
+  matchLength(song) {
+    if (this.state.maxLength === "") {
+      return true;
+    } else {
+      const maxMinutes = parseInt(this.state.maxLength);
+      const maxMs = maxMinutes * 60 * 1000;
+      return song.duration_ms < maxMs;
     }
   }
 
@@ -125,6 +138,23 @@ class DecadePicker extends React.Component {
   }
 }
 
+class LengthPicker extends React.Component {
+  render() {
+    return (
+      <select value={this.props.value} onChange={this.handleChange.bind(this)}>
+        <option value="">Any Length</option>
+        <option value="3">&lt; 3 minutes</option>
+        <option value="4">&lt; 4 minutes</option>
+        <option value="5">&lt; 5 minutes</option>
+      </select>
+    );
+  }
+
+  handleChange(event) {
+    this.props.onChange(event.target.value);
+  }
+}
+
 class Song extends React.Component {
   render() {
     if (this.props.noMatchingSong) {
@@ -140,12 +170,19 @@ class Song extends React.Component {
         <div className="Song">
           <h1>{song.title}</h1>
           <h2>{song.artist}</h2>
-          <h3>{song.year}</h3>
+          <h3>{song.year} • {this.formatDuration(song.duration_ms)}</h3>
         </div>
       );
     } else {
       return null;
     }
+  }
+
+  formatDuration(durationMs) {
+    const durationSeconds = Math.floor(durationMs / 1000);
+    const minutes = Math.floor(durationSeconds / 60);
+    const seconds = durationSeconds % 60;
+    return `${minutes}:${seconds.toString().padStart(2, "0")}`;
   }
 }
 
