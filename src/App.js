@@ -168,10 +168,30 @@ class Song extends React.Component {
     if (song) {
       return (
         <div className="Song">
-          <h1>{song.title}</h1>
-          <h2>{song.artist}</h2>
-          <h3>{song.year} • {this.formatDuration(song.duration_ms)}</h3>
+          <div class="SongTitle">{song.title}</div>
+          <div className="SongArtist">{song.artist}</div>
+          <div className="SongDetails">{song.year} • {this.formatDuration(song.duration_ms)}</div>
+          <SongImage value={song.image_url} />
         </div>
+      );
+    } else {
+      return null;
+    }
+  }
+
+  formatDuration(durationMs) {
+    const durationSeconds = Math.floor(durationMs / 1000);
+    const minutes = Math.floor(durationSeconds / 60);
+    const seconds = durationSeconds % 60;
+    return `${minutes}:${seconds.toString().padStart(2, "0")}`;
+  }
+}
+
+class SongImage extends React.Component {
+  render() {
+    if (this.props.value) {
+      return (
+        <img className="SongImage" src={this.props.value} />
       );
     } else {
       return null;

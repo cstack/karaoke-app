@@ -66,6 +66,7 @@ class SpotifyAdapter
       artist: track["artists"].map { |artist| artist["name"] }.join(", "),
       popularity: track["popularity"],
       duration_ms: track["duration_ms"],
+      image_url: track["album"]["images"][0]&.dig("url"),
     }
   end
 

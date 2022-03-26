@@ -26,6 +26,7 @@ describe SpotifyAdapter do
 	        :year=>"1981",
 	        :popularity=>85,
 	        :duration_ms=>250986,
+	        :image_url=>"https://i.scdn.co/image/ab67616d0000b273c5653f9038e42efad2f8a266",
 	      },
 	      {
 	      	:artist=>"Lady Gaga, Bradley Cooper",
@@ -35,6 +36,7 @@ describe SpotifyAdapter do
 	        :year=>"2018",
 	        :popularity=>87,
 	        :duration_ms=>215733,
+	        :image_url=>"https://i.scdn.co/image/ab67616d0000b273e2d156fdc691f57900134342",
 	      },
 			])
 		end

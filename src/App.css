@@ -25,6 +25,21 @@
   justify-content: center;
 }
 
+.SongTitle {
+  font-weight: 600;
+  font-size: 2.2em;
+}
+
+.SongArtist {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.SongDetails {
+  font-weight: 600;
+  font-size: 1.17em;
+}
+
 button {
   color: #1d1d1d;
   background-color: #FF9E00;
