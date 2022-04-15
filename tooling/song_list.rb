@@ -57,6 +57,10 @@ class SongList
       }
     end
 
+    def sort_key
+      [title, year]
+    end
+
     def decade
       (@year / 10).to_i * 10
     end
@@ -87,7 +91,7 @@ class SongList
   def to_csv
     CSV.generate do |csv|
       csv << ["title", "artist", "number_of_singers", "year", "popularity", "duration_ms", "image_url"]
-      @songs.sort_by(&:title).map do |song|
+      @songs.sort_by(&:sort_key).map do |song|
         csv << song.to_csv_row
       end
     end

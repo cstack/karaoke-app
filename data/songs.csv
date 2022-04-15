@@ -5,6 +5,7 @@ title,artist,number_of_singers,year,popularity,duration_ms,image_url
 A Whole New World,"Lea Salonga, Brad Kane, Disney",3,2004,69,160800,https://i.scdn.co/image/ab67616d0000b2734a4b92dcf7a5c51cc4f7424c
 Africa,TOTO,1,1982,84,295893,https://i.scdn.co/image/ab67616d0000b2734a052b99c042dc15f933145b
 Ain't No Mountain High Enough,"Marvin Gaye, Tammi Terrell",2,1967,82,151666,https://i.scdn.co/image/ab67616d0000b2739173e50e99bdea2400222f02
+All My Favorite Songs (feat. AJR),"Weezer, AJR",2,2021,63,170720,https://i.scdn.co/image/ab67616d0000b27352004504b4600d0293d2eb57
 All The Small Things,blink-182,1,1999,81,167066,https://i.scdn.co/image/ab67616d0000b2736da502e35a7a3e48de2b0f74
 Another One Bites The Dust - Remastered 2011,Queen,1,1980,75,214653,https://i.scdn.co/image/ab67616d0000b27307744e2ed983efa3e6620a47
 Baby,"Justin Bieber, Ludacris",2,2010,83,214240,https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a
@@ -24,8 +25,8 @@ Crazy Little Thing Called Love - Remastered 2011,Queen,1,1980,69,163373,https://
 Dancing Queen,ABBA,1,1976,82,230400,https://i.scdn.co/image/ab67616d0000b27370f7a1b35d5165c85b95a0e0
 Dancing Queen,ABBA,1,1976,82,230400,https://i.scdn.co/image/ab67616d0000b27370f7a1b35d5165c85b95a0e0
 Despacito,"Luis Fonsi, Daddy Yankee",2,2017,52,228200,https://i.scdn.co/image/ab67616d0000b273cec00cbd4c7c6e7a29e794c0
-Don't Go Breaking My Heart,"Elton John, Kiki Dee",2,1990,59,271133,https://i.scdn.co/image/ab67616d0000b27310a2dbd14d14e7495e7bf7e5
 Don't Go Breaking My Heart,"Elton John, Kiki Dee",2,1975,79,275440,https://i.scdn.co/image/ab67616d0000b27342a15a4fe15a8a88ab728d5b
+Don't Go Breaking My Heart,"Elton John, Kiki Dee",2,1990,59,271133,https://i.scdn.co/image/ab67616d0000b27310a2dbd14d14e7495e7bf7e5
 Don't Speak,No Doubt,1,1995,77,263560,https://i.scdn.co/image/ab67616d0000b2736ebd5e789646a833b8f7d4ba
 Don't Stop Believin',Journey,1,1981,83,250986,https://i.scdn.co/image/ab67616d0000b273c5653f9038e42efad2f8a266
 Drive,Incubus,1,1999,76,232453,https://i.scdn.co/image/ab67616d0000b27374fad40214d982351347e46e
@@ -40,14 +41,15 @@ Girlfriend,Avril Lavigne,1,2007,77,216600,https://i.scdn.co/image/ab67616d0000b2
 Girlfriend,Avril Lavigne,1,2007,77,216600,https://i.scdn.co/image/ab67616d0000b273476cdf5837ae39eee951cc15
 Girls Just Want to Have Fun,Cyndi Lauper,1,1983,79,238266,https://i.scdn.co/image/ab67616d0000b27352f532df7ba3269b0242fed9
 Good Time,"Owl City, Carly Rae Jepsen",2,2012,80,205933,https://i.scdn.co/image/ab67616d0000b273cf5459850259268f98b07f7a
+Heat Waves,Glass Animals,1,2020,94,238805,https://i.scdn.co/image/ab67616d0000b2739e495fb707973f3390850eea
 Hey Jude,The Beatles,1,2006,66,238854,https://i.scdn.co/image/ab67616d0000b27330503dbc30e621c96913379b
 Hit the Road Jack,Ray Charles,1,2021,68,119880,https://i.scdn.co/image/ab67616d0000b2734448e36a9ef845b705d80a0d
 I Got You Babe,Sonny & Cher,1,1965,66,190080,https://i.scdn.co/image/ab67616d0000b2736823f5ab3f87b902c35ef56b
 I Gotta Feeling,Black Eyed Peas,1,2009,75,289133,https://i.scdn.co/image/ab67616d0000b273382514f0114ba8f4a16d5db4
 I Love Rock 'N Roll,Joan Jett & The Blackhearts,1,1981,78,175173,https://i.scdn.co/image/ab67616d0000b2733c73b2e0a6aa490736f19751
 I Wanna Dance with Somebody (Who Loves Me),Whitney Houston,1,1987,82,291293,https://i.scdn.co/image/ab67616d0000b273cc57e9b00b87dd0f6e868347
-I Want It That Way,Backstreet Boys,1,2001,74,213600,https://i.scdn.co/image/ab67616d0000b273c2f0d820b1113f9a243fb973
 I Want It That Way,Backstreet Boys,1,1999,81,213306,https://i.scdn.co/image/ab67616d0000b2732160c02bc56f192df0f4986b
+I Want It That Way,Backstreet Boys,1,2001,74,213600,https://i.scdn.co/image/ab67616d0000b273c2f0d820b1113f9a243fb973
 I Want You Back,The Jackson 5,1,1969,78,176333,https://i.scdn.co/image/ab67616d0000b27316aaf05fe82237576a7d0e38
 I Will Always Love You,Whitney Houston,1,1992,78,271093,https://i.scdn.co/image/ab67616d0000b273456c0b5d0316a80dc600802e
 I Will Survive - Extended Version,Gloria Gaynor,1,1978,69,481813,https://i.scdn.co/image/ab67616d0000b273bce36707076282a49639d8b5
@@ -71,12 +73,14 @@ Love Song,Sara Bareilles,1,2007,75,258826,https://i.scdn.co/image/ab67616d0000b2
 Love Story,Taylor Swift,1,2008,70,235266,https://i.scdn.co/image/ab67616d0000b2737b25c072237f29ee50025fdc
 Mamma Mia,ABBA,1,1975,77,213266,https://i.scdn.co/image/ab67616d0000b27392d0747a634fcc351c6ac3c2
 Mamma Mia,ABBA,1,1975,77,213266,https://i.scdn.co/image/ab67616d0000b27392d0747a634fcc351c6ac3c2
+Maniac,Conan Gray,1,2020,83,185773,https://i.scdn.co/image/ab67616d0000b27388e3cda6d29b2552d4d6bc43
+Mr. Brightside,The Killers,1,2004,84,222973,https://i.scdn.co/image/ab67616d0000b273ccdddd46119a4ff53eaf1f5d
 Mr. Brightside,The Killers,1,2004,84,222973,https://i.scdn.co/image/ab67616d0000b273ccdddd46119a4ff53eaf1f5d
 Mr. Brightside,The Killers,1,2004,77,222586,https://i.scdn.co/image/ab67616d0000b27356a6d6e493a8f338be63fc49
-Mr. Brightside,The Killers,1,2004,84,222973,https://i.scdn.co/image/ab67616d0000b273ccdddd46119a4ff53eaf1f5d
 Ms. Jackson,Outkast,1,2000,84,270506,https://i.scdn.co/image/ab67616d0000b2732350e31bc346a6c20e9de166
 My Own Worst Enemy,Lit,1,1999,74,169026,https://i.scdn.co/image/ab67616d0000b2737b40b2abdbcb8520874f29ed
 No Scrubs,TLC,1,1999,80,214400,https://i.scdn.co/image/ab67616d0000b27361ffafd5e31a37336531cf95
+Old Town Road - Remix,"Lil Nas X, Billy Ray Cyrus",2,2019,81,157066,https://i.scdn.co/image/ab67616d0000b273c0e7bf5cdd630f314f20586a
 Oops!...I Did It Again,Britney Spears,1,2000,80,211160,https://i.scdn.co/image/ab67616d0000b2732aa20611c7fb964a74ab01a6
 Part Of Me,Katy Perry,1,2012,69,216160,https://i.scdn.co/image/ab67616d0000b273a56dc57d708c7b62db950105
 Party In The U.S.A.,Miley Cyrus,1,2009,77,202066,https://i.scdn.co/image/ab67616d0000b273d6c3ad6a2a27471e1d5e8103
@@ -85,6 +89,7 @@ Perfect Duet (Ed Sheeran & Beyoncé),"Ed Sheeran, Beyoncé",2,2017,82,259550,htt
 Raise Your Glass,P!nk,1,2010,78,202960,https://i.scdn.co/image/ab67616d0000b2736f3451faa271fbe470685f34
 Ring of Fire,Johnny Cash,1,1963,72,158426,https://i.scdn.co/image/ab67616d0000b273dfe4bfe695c4192e547e72c7
 SOS,ABBA,1,2014,46,201360,https://i.scdn.co/image/ab67616d0000b2738f64fbf30b36a1b9140c1ec9
+Salt,Ava Max,1,2020,74,180283,https://i.scdn.co/image/ab67616d0000b2739a95e89d24214b94de36ccf7
 Say My Name,Destiny's Child,1,1999,78,271333,https://i.scdn.co/image/ab67616d0000b2733718df75b57340c1947747e8
 Semi-Charmed Life,Third Eye Blind,1,1997,76,268360,https://i.scdn.co/image/ab67616d0000b2734139c9208eeed67d2a211beb
 Sex on Fire,Kings of Leon,1,2008,82,203346,https://i.scdn.co/image/ab67616d0000b2732519d01c0cca06f134eeadd8
@@ -105,6 +110,7 @@ Sweet Caroline,Neil Diamond,1,1969,79,203573,https://i.scdn.co/image/ab67616d000
 Sweet Child O' Mine,Guns N' Roses,1,1987,76,356066,https://i.scdn.co/image/ab67616d0000b27321ebf49b3292c3f0f575f0f5
 Sweet Dreams (Are Made of This) - Remastered,"Eurythmics, Annie Lennox, Dave Stewart",3,1983,82,216933,https://i.scdn.co/image/ab67616d0000b273b3994c94dfb241923664bb4d
 Sweet Home Alabama,Lynyrd Skynyrd,1,1974,82,283800,https://i.scdn.co/image/ab67616d0000b27317e1907923e91181f38290ac
+Sweet but Psycho,Ava Max,1,2020,82,187436,https://i.scdn.co/image/ab67616d0000b2739a95e89d24214b94de36ccf7
 Tainted Love,Soft Cell,1,1981,78,153800,https://i.scdn.co/image/ab67616d0000b27349c982dae436bac27c336f45
 The Middle,Jimmy Eat World,1,2001,81,165853,https://i.scdn.co/image/ab67616d0000b27395d1d98c5176e4f982bd73d6
 This Is How We Do It,"Montell Jordan, Wino",2,1995,65,238800,https://i.scdn.co/image/ab67616d0000b2730aba996870017b7e8cb5d8f1
@@ -115,8 +121,8 @@ Total Eclipse of the Heart,Bonnie Tyler,1,2009,78,267360,https://i.scdn.co/image
 Total Eclipse of the Heart,Bonnie Tyler,1,2009,78,267360,https://i.scdn.co/image/ab67616d0000b2738cefe8e2f2cfd63ce073fa96
 Twist And Shout - Remastered 2009,The Beatles,1,1963,75,155226,https://i.scdn.co/image/ab67616d0000b273dbeec63ad914c973e75c24df
 Umbrella,"Rihanna, JAY-Z",2,2007,70,275986,https://i.scdn.co/image/ab67616d0000b273b9ff0a5f40d3406aed5e5e3b
-Uptown Girl,Billy Joel,1,2001,64,194866,https://i.scdn.co/image/ab67616d0000b273649d4f282653ab8be56f447e
 Uptown Girl,Billy Joel,1,1983,79,197706,https://i.scdn.co/image/ab67616d0000b273814cbc4746358a25c84c62e7
+Uptown Girl,Billy Joel,1,2001,64,194866,https://i.scdn.co/image/ab67616d0000b273649d4f282653ab8be56f447e
 Walkin' On The Sun,Smash Mouth,1,1997,68,207786,https://i.scdn.co/image/ab67616d0000b27366ec7d795b727cd90bd09690
 Walking On Sunshine,Katrina & The Waves,1,1985,79,238733,https://i.scdn.co/image/ab67616d0000b273eafaf556eda644a745d0144d
 Wannabe,Spice Girls,1,1996,82,173026,https://i.scdn.co/image/ab67616d0000b27363facc42e4a35eb3aa182b59
@@ -133,3 +139,4 @@ Y.M.C.A.,Village People,1,1978,65,286666,https://i.scdn.co/image/ab67616d0000b27
 You're Still The One,Shania Twain,1,1997,77,212200,https://i.scdn.co/image/ab67616d0000b273aaf012d56b8c72658da6c45f
 You're The One That I Want - From “Grease”,"John Travolta, Olivia Newton-John",2,1978,75,169840,https://i.scdn.co/image/ab67616d0000b273b68df485f3304211904548a8
 Zombie,The Cranberries,1,1994,83,306440,https://i.scdn.co/image/ab67616d0000b27372d481a5999197ef5f42f796
+good 4 u,Olivia Rodrigo,1,2021,67,178146,https://i.scdn.co/image/ab67616d0000b273bdf5ed83a765fd10a97f08f1
