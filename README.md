@@ -41,10 +41,14 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 Publish app to github pages
 
-### `ruby src/ingest_playlist.rb`
+### `ruby tooling/ingest_playlist.rb`
 
 Fetches songs from spofity
 
-### `ruby src/parse_songs.rb`
+### `ruby tooling/parse_songs.rb`
 
 Rebuilds the song list
+
+### `ruby tooling/generate_report.rb`
+
+Produce statistics on the song list
