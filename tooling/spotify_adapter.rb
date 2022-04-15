@@ -5,12 +5,19 @@ require 'json'
 require 'byebug'
 
 class SpotifyAdapter
+  # https://rapidapi.com/Glavier/api/spotify23/
+
+  class TooManyRequests < StandardError; end
+
   def initialize(api_key:)
+    puts "Using api key #{api_key}"
     @api_key = api_key
   end
 
   def get_playlist_tracks(playlist_id)
+    puts "Fetching playlist #{playlist_id}"
     items = make_paginated_request(path: "/playlist_tracks/", params: { id: playlist_id })
+    puts "Fetched #{items.count} songs"
     items.map do |item|
       convert_track(item["track"])
     end
@@ -24,16 +31,34 @@ class SpotifyAdapter
     max_requests = 5 # prevent infinite loop
     items = []
     while more && requests_made < max_requests
-      json = make_request(path: path, params: params.merge(offset: offset, limit: limit))
+      requests_made += 1
+      puts "Requesting page #{requests_made}"
+      json = with_backoff_retry do
+        make_request(path: path, params: params.merge(offset: offset, limit: limit))
+      end
       offset += limit
       more = json["next"]
-      requests_made += 1
+      if json["items"].nil?
+        debugger
+      end
       items += json["items"]
     end
     if more
       raise "Did not reach last page after #{requests_made} requests. Possible infinite loop."
     end
     items
+  end
+
+  def with_backoff_retry
+    seconds_to_wait = 0.25
+    while true
+      begin
+        return yield
+      rescue TooManyRequests
+        sleep seconds_to_wait
+        seconds_to_wait *= 2
+      end
+    end
   end
 
   def make_request(path:, params: {})
@@ -53,8 +78,15 @@ class SpotifyAdapter
     request["X-RapidAPI-Key"] = @api_key
 
     response = http.request(request)
-    body = response.read_body
-    JSON.parse(body)
+    case response.code
+    when "200"
+      body = response.read_body
+      JSON.parse(body)
+    when "429"
+      raise TooManyRequests
+    else
+      raise "Unexpected http code #{response.code}"
+    end
   end
 
   def convert_track(track)
