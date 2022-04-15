@@ -15,6 +15,18 @@ class SongList
           image_url: row["image_url"],
         )
       end
+
+      def from_json(json)
+        new(
+          title: json[:title],
+          artist: json[:artist],
+          number_of_singers: json[:number_of_singers].to_i,
+          year: json[:year].to_i,
+          popularity: json[:popularity].to_i,
+          duration_ms: json[:duration_ms].to_i,
+          image_url: json[:image_url],
+        )
+      end
     end
 
     attr_reader :title, :artist, :number_of_singers, :year, :popularity, :duration_ms, :image_url
@@ -27,6 +39,22 @@ class SongList
       @popularity = popularity
       @duration_ms = duration_ms
       @image_url = image_url
+    end
+
+    def to_csv_row
+      [title, artist, number_of_singers, year, popularity, duration_ms, image_url]
+    end
+
+    def to_hash
+      {
+        title: title,
+        artist: artist,
+        number_of_singers: number_of_singers,
+        year: year,
+        popularity: popularity,
+        duration_ms: duration_ms,
+        image_url: image_url,
+      }
     end
 
     def decade
@@ -53,21 +81,23 @@ class SongList
   end
 
   def to_json
-    @songs.map { |row| row.to_hash }.to_json
+    @songs.map { |song| song.to_hash }.to_json
+  end
+
+  def to_csv
+    CSV.generate do |csv|
+      csv << ["title", "artist", "number_of_singers", "year", "popularity", "duration_ms", "image_url"]
+      @songs.sort_by(&:title).map do |song|
+        csv << song.to_csv_row
+      end
+    end
   end
 
   def replace_contents(songs)
-    songs = []
-    songs.each do |song|
-      songs << [song[:title], song[:artist], song[:number_of_singers], song[:year], song[:popularity], song[:duration_ms], song[:image_url]]
+    @songs = songs.map do |song|
+      Song.from_json(song)
     end
-
-    CSV.open(@filepath, "wb") do |csv|
-      csv << ["title", "artist", "number_of_singers", "year", "popularity", "duration_ms", "image_url"]
-      songs.each do |row|
-        csv << row
-      end
-    end
+    File.write(@filepath, to_csv)
   end
 
   def songs

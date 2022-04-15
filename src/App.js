@@ -47,7 +47,7 @@ class App extends React.Component {
   }
 
   matchNumberOfSingers(song) {
-    return song.number_of_singers === this.state.groupSize.toString();
+    return song.number_of_singers === this.state.groupSize;
   }
 
   matchDecade(song) {
@@ -114,7 +114,9 @@ class GroupSizePicker extends React.Component {
   }
 
   handleChange(event) {
-    this.props.onChange(event.target.value);
+    const rawValue = event.target.value;
+    const value = rawValue === null ? null : parseInt(rawValue);
+    this.props.onChange(value);
   }
 }
 
