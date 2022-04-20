@@ -28,3 +28,13 @@ print_histogram(song_list.songs.map do |song|
   type = song.number_of_singers == 1 ? "Solo" : "Duet"
   "#{song.decade}-#{type}"
 end)
+
+puts "Least popular"
+song_list.songs.sort_by(&:popularity).first(10).each do |song|
+  puts "#{song.popularity} - #{song.title}"
+end
+
+puts "Most popular"
+song_list.songs.sort_by(&:popularity).last(5).each do |song|
+  puts "#{song.popularity} - #{song.title}"
+end
