@@ -5,7 +5,10 @@ class SongList
   class Song
     class << self
       def from_row(row)
+        spotify_id = row["spotify_id"]
+        lyrics = lyrics_for_spotify_id(spotify_id)
         new(
+          spotify_id: spotify_id,
           title: row["title"],
           artist: row["artist"],
           number_of_singers: row["number_of_singers"].to_i,
@@ -13,25 +16,40 @@ class SongList
           popularity: row["popularity"].to_i,
           duration_ms: row["duration_ms"].to_i,
           image_url: row["image_url"],
+          lyrics: lyrics,
         )
       end
 
-      def from_json(json)
+      def lyrics_for_spotify_id(spotify_id)
+        filepath = File.expand_path(File.join(File.dirname(__FILE__), "../data/#{spotify_id}.txt"))
+        if File.exist?(filepath)
+          File.read(filepath)
+        else
+          nil
+        end
+      end
+
+      def from_hash(hash)
+        spotify_id = hash[:spotify_id]
+        lyrics = lyrics_for_spotify_id(spotify_id)
         new(
-          title: json[:title],
-          artist: json[:artist],
-          number_of_singers: json[:number_of_singers].to_i,
-          year: json[:year].to_i,
-          popularity: json[:popularity].to_i,
-          duration_ms: json[:duration_ms].to_i,
-          image_url: json[:image_url],
+          spotify_id: spotify_id,
+          title: hash[:title],
+          artist: hash[:artist],
+          number_of_singers: hash[:number_of_singers].to_i,
+          year: hash[:year].to_i,
+          popularity: hash[:popularity].to_i,
+          duration_ms: hash[:duration_ms].to_i,
+          image_url: hash[:image_url],
+          lyrics: lyrics,
         )
       end
     end
 
-    attr_reader :title, :artist, :number_of_singers, :year, :popularity, :duration_ms, :image_url
+    attr_reader :spotify_id, :title, :artist, :number_of_singers, :year, :popularity, :duration_ms, :image_url, :lyrics
 
-    def initialize(title:, artist:, number_of_singers:, year:, popularity:, duration_ms:, image_url:)
+    def initialize(spotify_id:, title:, artist:, number_of_singers:, year:, popularity:, duration_ms:, image_url:, lyrics:)
+      @spotify_id = spotify_id
       @title = title
       @artist = artist
       @number_of_singers = number_of_singers
@@ -39,10 +57,11 @@ class SongList
       @popularity = popularity
       @duration_ms = duration_ms
       @image_url = image_url
+      @lyrics = lyrics
     end
 
     def to_csv_row
-      [title, artist, number_of_singers, year, popularity, duration_ms, image_url]
+      [spotify_id, title, artist, number_of_singers, year, popularity, duration_ms, image_url]
     end
 
     def to_hash
@@ -54,6 +73,7 @@ class SongList
         popularity: popularity,
         duration_ms: duration_ms,
         image_url: image_url,
+        lyrics: lyrics,
       }
     end
 
@@ -90,7 +110,7 @@ class SongList
 
   def to_csv
     CSV.generate do |csv|
-      csv << ["title", "artist", "number_of_singers", "year", "popularity", "duration_ms", "image_url"]
+      csv << ["spotify_id", "title", "artist", "number_of_singers", "year", "popularity", "duration_ms", "image_url"]
       @songs.sort_by(&:sort_key).map do |song|
         csv << song.to_csv_row
       end
@@ -99,7 +119,7 @@ class SongList
 
   def replace_contents(songs)
     @songs = songs.map do |song|
-      Song.from_json(song)
+      Song.from_hash(song)
     end
     File.write(@filepath, to_csv)
   end

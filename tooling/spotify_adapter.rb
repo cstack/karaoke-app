@@ -19,8 +19,23 @@ class SpotifyAdapter
     items = make_paginated_request(path: "/playlist_tracks/", params: { id: playlist_id })
     puts "Fetched #{items.count} songs"
     items.map do |item|
-      convert_track(item["track"])
+      from_spotify_response_to_hash(item["track"])
     end
+  end
+
+  def get_track_lyrics(track_id)
+    puts "Fetching track lyrics #{track_id}"
+    result = with_backoff_retry do
+      make_request(path: "/track_lyrics/", params: { id: track_id })
+    end
+    if result == []
+      return []
+    end
+    result["lyrics"]["lines"].map do |line|
+      line["words"]
+    end
+  rescue => e
+    debugger
   end
 
   def make_paginated_request(path:, params: {})
@@ -50,7 +65,7 @@ class SpotifyAdapter
   end
 
   def with_backoff_retry
-    seconds_to_wait = 0.25
+    seconds_to_wait = 1
     while true
       begin
         return yield
@@ -77,6 +92,7 @@ class SpotifyAdapter
     request["X-RapidAPI-Host"] = 'spotify23.p.rapidapi.com'
     request["X-RapidAPI-Key"] = @api_key
 
+    puts url
     response = http.request(request)
     case response.code
     when "200"
@@ -89,7 +105,7 @@ class SpotifyAdapter
     end
   end
 
-  def convert_track(track)
+  def from_spotify_response_to_hash(track)
     {
       title: track["name"],
       spotify_id: track["id"],
