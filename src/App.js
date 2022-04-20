@@ -47,6 +47,9 @@ class App extends React.Component {
   }
 
   matchNumberOfSingers(song) {
+    if (this.state.groupSize === "") {
+      return true;
+    }
     return song.number_of_singers === this.state.groupSize;
   }
 
@@ -109,13 +112,14 @@ class GroupSizePicker extends React.Component {
       <select value={this.props.value} onChange={this.handleChange.bind(this)}>
         <option value="1">Solo</option>
         <option value="2">Duet</option>
+        <option value="">All</option>
       </select>
     );
   }
 
   handleChange(event) {
     const rawValue = event.target.value;
-    const value = rawValue === null ? null : parseInt(rawValue);
+    const value = rawValue === "" ? "" : parseInt(rawValue);
     this.props.onChange(value);
   }
 }
