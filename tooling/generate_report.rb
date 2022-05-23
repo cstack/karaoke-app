@@ -1,6 +1,10 @@
 require_relative './song_list.rb'
 require 'byebug'
 
+def truncate(string, max)
+  string.length > max ? "#{string[0...max]}..." : string
+end
+
 def histogram(values)
   values.group_by { |value| value }.map { |value, array| [value, array.count] }
 end

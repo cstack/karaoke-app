@@ -18,8 +18,17 @@ class SpotifyAdapter
     puts "Fetching playlist #{playlist_id}"
     items = make_paginated_request(path: "/playlist_tracks/", params: { id: playlist_id })
     puts "Fetched #{items.count} songs"
-    items.map do |item|
+    song_hashes = items.map do |item|
       from_spotify_response_to_hash(item["track"])
+    end
+    dedupe(song_hashes)
+  end
+
+  def dedupe(song_hashes)
+    song_hashes.group_by do |hash|
+      hash[:spotify_id]
+    end.map do |spotify_id, hashes|
+      hashes.first
     end
   end
 
