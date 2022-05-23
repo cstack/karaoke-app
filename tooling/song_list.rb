@@ -11,7 +11,6 @@ class SongList
           spotify_id: spotify_id,
           title: row["title"],
           artist: row["artist"],
-          number_of_singers: row["number_of_singers"].to_i,
           year: row["year"].to_i,
           popularity: row["popularity"].to_i,
           duration_ms: row["duration_ms"].to_i,
@@ -36,7 +35,6 @@ class SongList
           spotify_id: spotify_id,
           title: hash[:title],
           artist: hash[:artist],
-          number_of_singers: hash[:number_of_singers].to_i,
           year: hash[:year].to_i,
           popularity: hash[:popularity].to_i,
           duration_ms: hash[:duration_ms].to_i,
@@ -46,13 +44,12 @@ class SongList
       end
     end
 
-    attr_reader :spotify_id, :title, :artist, :number_of_singers, :year, :popularity, :duration_ms, :image_url, :lyrics
+    attr_reader :spotify_id, :title, :artist, :year, :popularity, :duration_ms, :image_url, :lyrics
 
-    def initialize(spotify_id:, title:, artist:, number_of_singers:, year:, popularity:, duration_ms:, image_url:, lyrics:)
+    def initialize(spotify_id:, title:, artist:, year:, popularity:, duration_ms:, image_url:, lyrics:)
       @spotify_id = spotify_id
       @title = title
       @artist = artist
-      @number_of_singers = number_of_singers
       @year = year
       @popularity = popularity
       @duration_ms = duration_ms
@@ -61,14 +58,13 @@ class SongList
     end
 
     def to_csv_row
-      [spotify_id, title, artist, number_of_singers, year, popularity, duration_ms, image_url]
+      [spotify_id, title, artist, year, popularity, duration_ms, image_url]
     end
 
     def to_hash
       {
         title: title,
         artist: artist,
-        number_of_singers: number_of_singers,
         year: year,
         popularity: popularity,
         duration_ms: duration_ms,
@@ -110,7 +106,7 @@ class SongList
 
   def to_csv
     CSV.generate do |csv|
-      csv << ["spotify_id", "title", "artist", "number_of_singers", "year", "popularity", "duration_ms", "image_url"]
+      csv << ["spotify_id", "title", "artist", "year", "popularity", "duration_ms", "image_url"]
       @songs.sort_by(&:sort_key).map do |song|
         csv << song.to_csv_row
       end

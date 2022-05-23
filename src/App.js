@@ -18,7 +18,6 @@ class App extends React.Component {
     this.state = {
       suggestedSong: null,
       noMatchingSong: false,
-      groupSize: 1,
       decade: "",
       maxLength: "",
     };
@@ -27,7 +26,6 @@ class App extends React.Component {
     return (
     <div className="App">
       <div className="Filters">
-        <GroupSizePicker value={this.state.groupSize} onChange={(value) => this.setState({groupSize: value}) } />
         <DecadePicker value={this.state.decade} onChange={(value) => this.setState({decade: value}) } />
         <LengthPicker value={this.state.maxLength} onChange={(value) => this.setState({maxLength: value}) } />
       </div>
@@ -39,18 +37,10 @@ class App extends React.Component {
 
   randomSong() {
     const filteredSongs = SONGS.filter((song) => {
-      return this.matchNumberOfSingers(song) &&
-        this.matchDecade(song) &&
+      return this.matchDecade(song) &&
         this.matchLength(song);
     });
     return filteredSongs[Math.floor(Math.random()*filteredSongs.length)];
-  }
-
-  matchNumberOfSingers(song) {
-    if (this.state.groupSize === "") {
-      return true;
-    }
-    return song.number_of_singers === this.state.groupSize;
   }
 
   matchDecade(song) {
@@ -103,24 +93,6 @@ class NewSongButton extends React.Component {
     this.setState({
       suggestedSong: song,
     });
-  }
-}
-
-class GroupSizePicker extends React.Component {
-  render() {
-    return (
-      <select value={this.props.value} onChange={this.handleChange.bind(this)}>
-        <option value="1">Solo</option>
-        <option value="2">Duet</option>
-        <option value="">All</option>
-      </select>
-    );
-  }
-
-  handleChange(event) {
-    const rawValue = event.target.value;
-    const value = rawValue === "" ? "" : parseInt(rawValue);
-    this.props.onChange(value);
   }
 }
 

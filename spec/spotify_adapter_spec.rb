@@ -20,7 +20,6 @@ describe SpotifyAdapter do
 			expect(subject).to eq([
 	      {
 	      	:artist=>"Journey",
-	        :number_of_singers=>1,
 	        :spotify_id=>"4bHsxqR3GMrXTxEPLuK5ue",
 	        :title=>"Don't Stop Believin'",
 	        :year=>"1981",
@@ -30,7 +29,6 @@ describe SpotifyAdapter do
 	      },
 	      {
 	      	:artist=>"Lady Gaga, Bradley Cooper",
-	        :number_of_singers=>2,
 	        :spotify_id=>"2VxeLyX666F8uXCJ0dZF8B",
 	        :title=>"Shallow",
 	        :year=>"2018",
