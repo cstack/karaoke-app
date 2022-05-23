@@ -45,6 +45,10 @@ Publish app to github pages
 
 Fetches songs from spofity
 
+### `ruby tooling/fetch_lyrics.rb`
+
+Fetches lyrics for any songs missing them
+
 ### `ruby tooling/parse_songs.rb`
 
 Rebuilds the song list
