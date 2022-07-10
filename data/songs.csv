@@ -1,17 +1,19 @@
 spotify_id,title,artist,year,popularity,duration_ms,image_url
 3MjUtNVVq3C8Fn0MP3zhXa,...Baby One More Time,Britney Spears,1999,79,211066,https://i.scdn.co/image/ab67616d0000b2738e49866860c25afffe2f1a02
-6iX1f3r7oUJnMbGgQ2gx1j,867-5309 / Jenny,Tommy Tutone,1981,65,226200,https://i.scdn.co/image/ab67616d0000b273de364a9a587331dbf00aaae7
+6iX1f3r7oUJnMbGgQ2gx1j,867-5309 / Jenny,Tommy Tutone,1981,64,226200,https://i.scdn.co/image/ab67616d0000b273de364a9a587331dbf00aaae7
 4w3tQBXhn5345eUXDGBWZG,9 to 5,Dolly Parton,1980,77,162466,https://i.scdn.co/image/ab67616d0000b273060ccf36ab5b0e0a739799ec
-1hwdPQtFHISvZ9SXMkNrIK,A Whole New World,"Lea Salonga, Brad Kane, Disney",2004,69,160800,https://i.scdn.co/image/ab67616d0000b2734a4b92dcf7a5c51cc4f7424c
+1hwdPQtFHISvZ9SXMkNrIK,A Whole New World,"Lea Salonga, Brad Kane, Disney",2004,68,160800,https://i.scdn.co/image/ab67616d0000b2734a4b92dcf7a5c51cc4f7424c
+1Rb2wHDDtNfLZwboO3UEQ4,Absolutely (Story of a Girl),Nine Days,2016,54,190758,https://i.scdn.co/image/ab67616d0000b273f82b2da2acb4e385666f95f6
 2374M0fQpWi3dLnB54qaLX,Africa,TOTO,1982,84,295893,https://i.scdn.co/image/ab67616d0000b2734a052b99c042dc15f933145b
 3A6nR4GSolo160nu7xtDk7,All My Favorite Songs (feat. AJR),"Weezer, AJR",2021,63,170720,https://i.scdn.co/image/ab67616d0000b27352004504b4600d0293d2eb57
 2m1hi0nfMR9vdGC8UcrnwU,All The Small Things,blink-182,1999,81,167066,https://i.scdn.co/image/ab67616d0000b2736da502e35a7a3e48de2b0f74
 57JVGBtBLCfHw2muk5416J,Another One Bites The Dust - Remastered 2011,Queen,1980,74,214653,https://i.scdn.co/image/ab67616d0000b27307744e2ed983efa3e6620a47
 6epn3r7S14KUqlReYr77hA,Baby,"Justin Bieber, Ludacris",2010,82,214240,https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a
 273dCMFseLcVsoSWx59IoE,Bad Blood,Taylor Swift,2014,67,211933,https://i.scdn.co/image/ab67616d0000b2739abdf14e6058bd3903686148
+190jyVPHYjAqEaOGmMzdyk,Beauty And A Beat,"Justin Bieber, Nicki Minaj",2012,74,227986,https://i.scdn.co/image/ab67616d0000b2736c20c4638a558132ba95bc39
 4KcH1ZRV2W1q7Flq0QqC76,Blitzkrieg Bop - 2016 Remaster,Ramones,1976,72,134466,https://i.scdn.co/image/ab67616d0000b273db687db0afb257abdee10816
 5GorCbAP4aL0EJ16frG2hd,Boulevard of Broken Dreams,Green Day,2017,77,262333,https://i.scdn.co/image/ab67616d0000b2737f213369d5265a60af5f7e82
-1mWdTewIgB3gtBM3TOSFhB,Butter,BTS,2021,82,164441,https://i.scdn.co/image/ab67616d0000b273240447f2da1433d8f4303596
+1mWdTewIgB3gtBM3TOSFhB,Butter,BTS,2021,81,164441,https://i.scdn.co/image/ab67616d0000b273240447f2da1433d8f4303596
 62bOmKYxYg7dhrC6gH9vFn,Bye Bye Bye,*NSYNC,2000,72,200400,https://i.scdn.co/image/ab67616d0000b273a6cb8fab778e1efc406a5909
 48UPSzbZjgc449aqz8bxox,Californication,Red Hot Chili Peppers,1999,82,329733,https://i.scdn.co/image/ab67616d0000b27394d08ab63e57b0cae74e8595
 7HKxTNVlkHsfMLhigmhC0I,Call Me,Blondie,2004,68,212226,https://i.scdn.co/image/ab67616d0000b27313cbe3e4dfa81fe5b91f2f1c
@@ -49,8 +51,10 @@ spotify_id,title,artist,year,popularity,duration_ms,image_url
 6fw12s3vAJQAt7lbICodwC,"I Will Survive - Original 7"" Version",Gloria Gaynor,1993,65,198373,https://i.scdn.co/image/ab67616d0000b273fbb2f8d9f10d03d7f01a664d
 66S14BkJDxgkYxLl5DCqOz,I'm Gonna Be (500 Miles),The Proclaimers,2003,73,219466,https://i.scdn.co/image/ab67616d0000b273b0c0201a8796d8a536253a61
 3G7tRC24Uh09Hmp1KZ7LQ2,I'm a Believer - 2006 Remaster,The Monkees,1967,75,167373,https://i.scdn.co/image/ab67616d0000b273360a1ae790aa71a0aac4983e
+60a0Rd6pjrkxjPbaKzXjfq,In the End,Linkin Park,2000,84,216880,https://i.scdn.co/image/ab67616d0000b273e2f039481babe23658fc719a
 2AW37v0bDyuOzGP3XnmFuA,It's Gonna Be Me,*NSYNC,2000,68,192426,https://i.scdn.co/image/ab67616d0000b273a6cb8fab778e1efc406a5909
 1mKXFLRA179hdOWQBwUk9e,Just Give Me a Reason (feat. Nate Ruess),"P!nk, Nate Ruess",2012,81,242733,https://i.scdn.co/image/ab67616d0000b2739d0f0d226987b449808e7b6f
+7GqWnsKhMtEW0nzki5o0d8,Killer Queen - Remastered 2011,Queen,1974,69,179600,https://i.scdn.co/image/ab67616d0000b27359998815d706661e2c404d9f
 455AfCsOhhLPRc68sE01D8,Last Friday Night (T.G.I.F.),Katy Perry,2012,76,230746,https://i.scdn.co/image/ab67616d0000b273937af329667311f4b2831616
 0qcr5FMsEO85NAQjrlDRKo,"Let It Go - From ""Frozen""/Soundtrack Version",Idina Menzel,2013,75,223840,https://i.scdn.co/image/ab67616d0000b2734b1899123e484c034e31164e
 37ZJ0p5Jm13JPevGcx4SkF,Livin' On A Prayer,Bon Jovi,1986,85,249293,https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac
@@ -59,7 +63,6 @@ spotify_id,title,artist,year,popularity,duration_ms,image_url
 4E6cwWJWZw2zWf7VFbH7wf,Love Song,Sara Bareilles,2007,74,258826,https://i.scdn.co/image/ab67616d0000b2731c3e0a58f3ee28af2922e351
 1vrd6UOGamcKNGnSHJQlSt,Love Story,Taylor Swift,2008,69,235266,https://i.scdn.co/image/ab67616d0000b2737b25c072237f29ee50025fdc
 2TxCwUlqaOH3TIyJqGgR91,Mamma Mia,ABBA,1975,78,213266,https://i.scdn.co/image/ab67616d0000b27392d0747a634fcc351c6ac3c2
-6KfoDhO4XUWSbnyKjNp9c4,Maniac,Conan Gray,2020,82,185773,https://i.scdn.co/image/ab67616d0000b27388e3cda6d29b2552d4d6bc43
 003vvx7Niy0yvhvHt4a68B,Mr. Brightside,The Killers,2004,85,222973,https://i.scdn.co/image/ab67616d0000b273ccdddd46119a4ff53eaf1f5d
 0I3q5fE6wg7LIfHGngUTnV,Ms. Jackson,Outkast,2000,82,270506,https://i.scdn.co/image/ab67616d0000b2732350e31bc346a6c20e9de166
 6sqNctd7MlJoKDOxPVCAvU,My Happy Ending,Avril Lavigne,2004,70,242413,https://i.scdn.co/image/ab67616d0000b2739c291af4bf0c3071847f2b80
@@ -69,7 +72,8 @@ spotify_id,title,artist,year,popularity,duration_ms,image_url
 6naxalmIoLFWR0siv8dnQQ,Oops!...I Did It Again,Britney Spears,2000,79,211160,https://i.scdn.co/image/ab67616d0000b2732aa20611c7fb964a74ab01a6
 6yARPLK0PV4heEyh7pVMGz,Part Of Me,Katy Perry,2012,69,216160,https://i.scdn.co/image/ab67616d0000b273a56dc57d708c7b62db950105
 5Q0Nhxo0l2bP3pNjpGJwV1,Party In The U.S.A.,Miley Cyrus,2009,78,202066,https://i.scdn.co/image/ab67616d0000b273d6c3ad6a2a27471e1d5e8103
-3XYRV7ZSHqIRDG87DKTtry,Permission to Dance,BTS,2021,83,187585,https://i.scdn.co/image/ab67616d0000b273a7e481899b7e0396f93d10b8
+3XYRV7ZSHqIRDG87DKTtry,Permission to Dance,BTS,2021,82,187585,https://i.scdn.co/image/ab67616d0000b273a7e481899b7e0396f93d10b8
+3OIHgTyQdiAGMmpjQaNxp3,Pokémon Theme,Pokémon,1999,62,198186,https://i.scdn.co/image/ab67616d0000b273b26ee3ea08f1e5d8dffbab4b
 1gv4xPanImH17bKZ9rOveR,Raise Your Glass,P!nk,2010,77,202960,https://i.scdn.co/image/ab67616d0000b2736f3451faa271fbe470685f34
 0XyjtybwqSdqMAFfBEkmZf,Rebel Girl,Bikini Kill,2015,59,157333,https://i.scdn.co/image/ab67616d0000b2733aaf814e8350a1ae241603a0
 6YffUZJ2R06kyxyK6onezL,Ring of Fire,Johnny Cash,1963,71,158426,https://i.scdn.co/image/ab67616d0000b273dfe4bfe695c4192e547e72c7
@@ -82,33 +86,36 @@ spotify_id,title,artist,year,popularity,duration_ms,image_url
 42et6fnHCw1HIPSrdPprMl,Semi-Charmed Life,Third Eye Blind,1997,75,268360,https://i.scdn.co/image/ab67616d0000b2734139c9208eeed67d2a211beb
 5xTtaWoae3wi06K5WfVUUH,Shake It Off,Taylor Swift,2014,74,219200,https://i.scdn.co/image/ab67616d0000b2739abdf14e6058bd3903686148
 39shmbIHICJ2Wxnk1fPSdz,Should I Stay or Should I Go - Remastered,The Clash,1982,81,188986,https://i.scdn.co/image/ab67616d0000b27325a4df452a3c42ccc2e9288b
+4kbj5MwxO1bq9wjT5g9HaA,Shut Up and Dance,WALK THE MOON,2014,84,199080,https://i.scdn.co/image/ab67616d0000b27343294cfa2688055c9d821bf3
 3xrn9i8zhNZsTtcoWgQEAd,Since U Been Gone,Kelly Clarkson,2004,73,188960,https://i.scdn.co/image/ab67616d0000b27303dadde4d9d305c1c3e0d91c
 00Mb3DuaIH1kjrwOku9CGU,Sk8er Boi,Avril Lavigne,2002,77,204000,https://i.scdn.co/image/ab67616d0000b273f7ec724fbf97a30869d06240
 5ghIJDpPoe3CfHMGu71E6T,Smells Like Teen Spirit,Nirvana,1991,79,301920,https://i.scdn.co/image/ab67616d0000b273e175a19e530c898d167d39bf
 1zwMYTA5nlNjZxYrvBB2pV,Someone Like You,Adele,2011,79,285240,https://i.scdn.co/image/ab67616d0000b2731c88166762f2e18f8f23c6f1
 3GfOAdcoc3X5GPiiXmpBjK,Song 2,Blur,2000,67,121880,https://i.scdn.co/image/ab67616d0000b27334cbf7013afccc7df67fa43f
+27L8sESb3KR79asDUBu8nW,Stacy's Mom,Fountains Of Wayne,2003,76,197986,https://i.scdn.co/image/ab67616d0000b273079e826265dffc3a8a26bac5
 1oHNvJVbFkexQc0BpQp7Y4,Starships,Nicki Minaj,2011,75,210626,https://i.scdn.co/image/ab67616d0000b27385235715597dcd07bb9e0f84
 3mRM4NM8iO7UBqrSigCQFH,"Stayin' Alive - From ""Saturday Night Fever"" Soundtrack",Bee Gees,1979,67,285373,https://i.scdn.co/image/ab67616d0000b27352038992fc6d7868f31d23b7
 2AVkArcfALVk2X8sfPRzya,Summer Nights - From “Grease”,"John Travolta, Olivia Newton-John",1978,72,216906,https://i.scdn.co/image/ab67616d0000b273b68df485f3304211904548a8
-0GONea6G2XdnHWjNZd6zt3,Summer Of '69,Bryan Adams,1984,83,216053,https://i.scdn.co/image/ab67616d0000b273cf1fee2a55e98e22bf358512
+0GONea6G2XdnHWjNZd6zt3,Summer Of '69,Bryan Adams,1984,82,216053,https://i.scdn.co/image/ab67616d0000b273cf1fee2a55e98e22bf358512
 62AuGbAkt8Ox2IrFFb8GKV,Sweet Caroline,Neil Diamond,1969,79,203573,https://i.scdn.co/image/ab67616d0000b2734d1a7a3e5043173883653ffc
 7snQQk1zcKl8gZ92AnueZW,Sweet Child O' Mine,Guns N' Roses,1987,77,356066,https://i.scdn.co/image/ab67616d0000b27321ebf49b3292c3f0f575f0f5
 1TfqLAPs4K3s2rJMoCokcS,Sweet Dreams (Are Made of This) - Remastered,"Eurythmics, Annie Lennox, Dave Stewart",1983,82,216933,https://i.scdn.co/image/ab67616d0000b273b3994c94dfb241923664bb4d
 7e89621JPkKaeDSTQ3avtg,Sweet Home Alabama,Lynyrd Skynyrd,1974,83,283800,https://i.scdn.co/image/ab67616d0000b27317e1907923e91181f38290ac
 7DnAm9FOTWE3cUvso43HhI,Sweet but Psycho,Ava Max,2020,81,187436,https://i.scdn.co/image/ab67616d0000b2739a95e89d24214b94de36ccf7
 0cGG2EouYCEEC3xfa0tDFV,Tainted Love,Soft Cell,1981,78,153800,https://i.scdn.co/image/ab67616d0000b27349c982dae436bac27c336f45
+7rl7ao5pb9BhvAzPdWStxi,Telephone,"Lady Gaga, Beyoncé",2009,70,220626,https://i.scdn.co/image/ab67616d0000b273bfd247438980173d32fd5ba8
 3MrRksHupTVEQ7YbA0FsZK,The Final Countdown,Europe,1986,79,310333,https://i.scdn.co/image/ab67616d0000b2732d925cec3072ed1b74e5188f
 6GG73Jik4jUlQCkKg9JuGO,The Middle,Jimmy Eat World,2001,80,165853,https://i.scdn.co/image/ab67616d0000b27395d1d98c5176e4f982bd73d6
 1iD0a0plhO55cWEJa5UGcZ,The Science of Selling Yourself Short,Less Than Jake,2003,58,186266,https://i.scdn.co/image/ab67616d0000b27346b71e44bcda9ea6eba4182e
 0HPD5WQqrq7wPWR7P7Dw1i,TiK ToK,Kesha,2010,82,199693,https://i.scdn.co/image/ab67616d0000b2737a6339d6ddfd579f77559b3c
 2TVxnKdb3tqe1nhQWwwZCO,Tiny Dancer,Elton John,1971,78,377093,https://i.scdn.co/image/ab67616d0000b273d03ab2da904d8251a87bbc31
 7wuJGgpTNzbUyn26IOY6rj,Total Eclipse of the Heart,Bonnie Tyler,2009,78,267360,https://i.scdn.co/image/ab67616d0000b2738cefe8e2f2cfd63ce073fa96
+6I9VzXrHxO9rA9A5euc8Ak,Toxic,Britney Spears,2003,82,198800,https://i.scdn.co/image/ab67616d0000b273efc6988972cb04105f002cd4
 5ZBeML7Lf3FMEVviTyvi8l,Twist And Shout - Remastered 2009,The Beatles,1963,75,155226,https://i.scdn.co/image/ab67616d0000b273dbeec63ad914c973e75c24df
 2yPoXCs7BSIUrucMdK5PzV,Umbrella,"Rihanna, JAY-Z",2007,69,275986,https://i.scdn.co/image/ab67616d0000b273b9ff0a5f40d3406aed5e5e3b
 1mSClObliRtgPVT399COQH,Under Pressure,"Queen, David Bowie",1982,60,245506,https://i.scdn.co/image/ab67616d0000b27370f9e1cf71793ee37d5e6730
 5zA8vzDGqPl2AzZkEYQGKh,Uptown Girl,Billy Joel,1983,79,197706,https://i.scdn.co/image/ab67616d0000b273814cbc4746358a25c84c62e7
 27OeeYzk6klgBh83TSvGMA,WITHOUT YOU,The Kid LAROI,2020,81,161384,https://i.scdn.co/image/ab67616d0000b273df16d539f508603bfb1efe02
-1EHUQesfVKwbthtNcpBi9g,WITHOUT YOU (with Miley Cyrus),"The Kid LAROI, Miley Cyrus",2021,75,161384,https://i.scdn.co/image/ab67616d0000b273c01093b31199328192c8e421
 4TQeNHx85xcP9YRkvJC6K1,Walkin' On The Sun,Smash Mouth,1997,67,207786,https://i.scdn.co/image/ab67616d0000b27366ec7d795b727cd90bd09690
 05wIrZSwuaVWhcv5FfqeH0,Walking On Sunshine,Katrina & The Waves,1985,80,238733,https://i.scdn.co/image/ab67616d0000b273eafaf556eda644a745d0144d
 1Je1IMUlBXcx1Fz0WE7oPT,Wannabe,Spice Girls,1996,81,173026,https://i.scdn.co/image/ab67616d0000b27363facc42e4a35eb3aa182b59
@@ -123,6 +130,6 @@ spotify_id,title,artist,year,popularity,duration_ms,image_url
 4YOJFyjqh8eAcbKFfv88mV,Y.M.C.A.,Village People,1978,65,286666,https://i.scdn.co/image/ab67616d0000b2736effa8520bc566806f680860
 3GCL1PydwsLodcpv0Ll1ch,You Belong With Me,Taylor Swift,2008,71,231133,https://i.scdn.co/image/ab67616d0000b2737b25c072237f29ee50025fdc
 1wb4P4F0sxAQ2KXrRvsx6n,You're Still The One,Shania Twain,1997,77,212200,https://i.scdn.co/image/ab67616d0000b273aaf012d56b8c72658da6c45f
-0B9x2BRHqj3Qer7biM3pU3,You're The One That I Want - From “Grease”,"John Travolta, Olivia Newton-John",1978,76,169840,https://i.scdn.co/image/ab67616d0000b273b68df485f3304211904548a8
+0B9x2BRHqj3Qer7biM3pU3,You're The One That I Want - From “Grease”,"John Travolta, Olivia Newton-John",1978,77,169840,https://i.scdn.co/image/ab67616d0000b273b68df485f3304211904548a8
 7EZC6E7UjZe63f1jRmkWxt,Zombie,The Cranberries,1994,82,306440,https://i.scdn.co/image/ab67616d0000b27372d481a5999197ef5f42f796
 6P4d1NWBCNIYZjzF9k1mVN,good 4 u,Olivia Rodrigo,2021,65,178146,https://i.scdn.co/image/ab67616d0000b273bdf5ed83a765fd10a97f08f1
