@@ -1,8 +1,12 @@
+# Karaoke Sidekick
+
+For when you don't know what song to sing at karaoke
+
 [Live App](https://cstack.github.io/karaoke-app/)
 
-## Available Scripts
+[![Screenshot of live app](./screenshot.png)](https://cstack.github.io/karaoke-app/)
 
-In the project directory, you can run:
+## Development
 
 ### `npm start`
 
@@ -39,7 +43,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ### `ruby tooling/ingest_playlist.rb`
 
-Fetches songs from spofity
+Fetches songs from Spotify
 
 ### `ruby tooling/fetch_lyrics.rb`
 
